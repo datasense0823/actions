@@ -12,7 +12,13 @@ jobs:
               run: |
                 echo "Hi"
                 echo "I am not good "
-            - run: echo "Test without run"
+            - run: echo "Testiiiiiii"
+
+            - name: Checkout previous commit via Git command
+              run: |
+               git fetch --all
+               git checkout HEAD~1  # This checks out the commit one before the current commit
+
 
 
 
