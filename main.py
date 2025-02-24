@@ -28,6 +28,6 @@ if not os.environ.get("BROWSER_ALREADY_OPENED"):
 # --- Streamlit App Code ---
 import streamlit as st
 
-st.title("Welcome to My Streamlit App")
+st.title("I am Learning Github Actions")
 st.header("Hello, Streamlit!")
 st.write("This app automatically opens the front end in your browser upon running.")
