@@ -12,7 +12,10 @@ jobs:
               run: |
                 echo "Hi"
                 echo "I am not good "
-            - run: echo "Testiiiiiii"
+            - run: echo "WowwwTestiiiiiii"
+
+            - name: checkout repo
+              run: actions/checkout@v2
 
             - name: Checkout previous commit via Git command
               run: |
