@@ -12,17 +12,8 @@ jobs:
               run: |
                 echo "Hi"
                 echo "I am not good "
+                
             - run: echo "WowwwTestiiiiiii"
-
-            - name: checkout repo
-              run: actions/checkout@v2
-
-            - name: Checkout previous commit via Git command
-              run: |
-               git fetch --all
-               git checkout HEAD~1  # This checks out the commit one before the current commit
-
-
 
 
 
