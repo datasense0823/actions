@@ -11,7 +11,7 @@ jobs:
             - name: Multiline Command
               run: |
                 echo "Hi"
-                echo "How are you "
+                echo "I am not good "
 
 
 
