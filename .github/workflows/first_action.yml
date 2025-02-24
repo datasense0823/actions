@@ -12,6 +12,7 @@ jobs:
               run: |
                 echo "Hi"
                 echo "I am not good "
+            - run: echo "Test without run"
 
 
 
